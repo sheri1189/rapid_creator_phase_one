@@ -94,11 +94,11 @@
         <div class="d-flex flex-column flex-center text-center p-10">
             <div class="card card-flush w-md-650px py-5">
                 <div class="card-body py-15 py-lg-20">
-                    <div class="mb-7">
+                    {{-- <div class="mb-7">
                         <a href="{{ url("index.html") }}" class="">
                             <img alt="Logo" src="{{ asset("assets/media/logos/custom-2.svg") }}" class="h-40px"/>
                         </a>
-                    </div>
+                    </div> --}}
                     <h1 class="fw-bolder text-gray-900 mb-5">
                         Welcome to {{env('SOFTWARE_NAME')}}    </h1>
                     <div class="fw-semibold fs-6 text-gray-500 mb-7">
